@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+.links ul {
+    display: flex;
+    gap: 14px;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+main div {
+    background-color: gray;
+    height: 400px;
+}
+.hero {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.hero img {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+.hero div {
+    background-color: black;
+}
+
+.content-cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: white;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    border: 6px solid blue;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+.section-2 {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.quote-section {
+    background-color: rgb(246, 241, 241);
+    color: black;
+    text-align: center;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-section p {
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(137, 129, 129);
+}
