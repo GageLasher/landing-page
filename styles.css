@@ -84,3 +84,46 @@ main div {
     font-weight: 300;
     color: rgb(137, 129, 129);
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.info-container {
+      background-color: #4a78ff;      /* blue background */
+    margin: 60px auto;              /* top/bottom spacing */
+    padding: 40px 60px;             /* inner spacing */
+    border-radius: 8px;             /* rounded corners */
+
+    display: flex;                  /* horizontal layout */
+    justify-content: space-between; /* space between text + button */
+    align-items: center;            /* vertical centering */
+
+    width: 70%;                     /* container width */
+    color: white; 
+    height: 50%;
+}
+.info-container div {
+    height: 10px;
+}
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.cta-text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #4a78ff;
+}
+
+.cta-text p {
+    margin: 6px 0 0 0;
+    font-size: 16px;
+    font-weight: 300;
+}
